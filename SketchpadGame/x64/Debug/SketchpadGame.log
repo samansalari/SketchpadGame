@@ -1,0 +1,76 @@
+﻿  Window.cpp
+  Engine.cpp
+  GLContext.cpp
+  UIContext.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  InputManager.cpp
+  Main.cpp
+  Peer.cpp
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(36,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(50,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(94,75): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(99): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(146,14): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(229,22): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\network\Peer.cpp(269,19): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  MainPanel.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\SBA\source\repos\SketchpadGame\extern\include\GLFW\glfw3.h(123,1): message : see previous definition of 'APIENTRY'
+  Scene.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\SBA\source\repos\SketchpadGame\extern\include\GLFW\glfw3.h(123,1): message : see previous definition of 'APIENTRY'
+C:\Users\SBA\source\repos\SketchpadGame\SketchpadGame\ui\Scene.cpp(181,35): warning C4838: conversion from 'int' to 'uint16_t' requires a narrowing conversion
+  Voxel.cpp
+  VoxelRenderer.cpp
+  MousePicker.cpp
+  ResourceManager.cpp
+  Generating Code...
+  Compiling...
+  Shader.cpp
+  Texture.cpp
+  Timer.cpp
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"public: __cdecl VoxelRenderer::~VoxelRenderer(void)" (??1VoxelRenderer@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"public: void __cdecl VoxelRenderer::drawVoxel(struct glm::vec<3,float,0>,struct glm::vec<4,float,0>,struct glm::vec<2,float,0>)" (?drawVoxel@VoxelRenderer@@QEAAXU?$vec@$02M$0A@@glm@@U?$vec@$03M$0A@@3@U?$vec@$01M$0A@@3@@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"public: __cdecl VoxelRenderer::~VoxelRenderer(void)" (??1VoxelRenderer@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'VoxelRenderer.obj' in function '"private: void __cdecl VoxelRenderer::initRenderData(void)" (?initRenderData@VoxelRenderer@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'ResourceManager.obj' in function '"public: static void __cdecl ResourceManager::Clear(void)" (?Clear@ResourceManager@@SAXXZ)'
+LINK : warning LNK4217: symbol '__glewAttachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewCompileShader' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewCreateProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewCreateShader' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteShader' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewGetProgramInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AEAAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '__glewGetProgramiv' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AEAAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '__glewGetShaderInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AEAAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '__glewGetShaderiv' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"private: void __cdecl Shader::checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@Shader@@AEAAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setFloat(char const *,float,bool)" (?setFloat@Shader@@QEAAXPEBDM_N@Z)'
+LINK : warning LNK4217: symbol '__glewLinkProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewShaderSource' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QEAAXPEBD00@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1f' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setFloat(char const *,float,bool)" (?setFloat@Shader@@QEAAXPEBDM_N@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setInteger(char const *,int,bool)" (?setInteger@Shader@@QEAAXPEBDH_N@Z)'
+LINK : warning LNK4217: symbol '__glewUniform2f' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setVector2f(char const *,struct glm::vec<2,float,0> const &,bool)" (?setVector2f@Shader@@QEAAXPEBDAEBU?$vec@$01M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '__glewUniform3f' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setVector3f(char const *,struct glm::vec<3,float,0> const &,bool)" (?setVector3f@Shader@@QEAAXPEBDAEBU?$vec@$02M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '__glewUniform4f' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setVector4f(char const *,struct glm::vec<4,float,0> const &,bool)" (?setVector4f@Shader@@QEAAXPEBDAEBU?$vec@$03M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '__glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: void __cdecl Shader::setMatrix4(char const *,struct glm::mat<4,4,float,0> const &,bool)" (?setMatrix4@Shader@@QEAAXPEBDAEBU?$mat@$03$03M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '__glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Shader.obj' in function '"public: class Shader & __cdecl Shader::use(void)" (?use@Shader@@QEAAAEAV1@XZ)'
+  SketchpadGame.vcxproj -> C:\Users\SBA\source\repos\SketchpadGame\x64\Debug\SketchpadGame.exe
